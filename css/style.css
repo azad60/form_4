@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form{
+  width: 100%;
+  background: #F5F5F5;
+  padding: 40px 0;
+}
+form h1{
+  text-align: center;
+  margin-bottom: 10px;
+  color: #FF4E5D;
+}
+input{
+  padding: 5px;
+}
+input:focus{
+  border: 1px solid #FF4E5D;
+  outline: none;
+}
+.main{
+  width: 60%;
+  margin: auto;
+  background: #FFFFFF;
+  padding: 20px;
+}
+.name{
+  width: 100%;
+  background: #FFF4F4;
+  display: flex;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.name div{
+  margin-left: 40px;
+}
+.email{
+  width: 100%;
+  background: #FFF4F4;
+  display: flex;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.email div{
+  margin-left: 40px;
+}
+.phone{
+  width: 100%;
+  background: #FFF4F4;
+  display: flex;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.phone div{
+  margin-left: 40px;
+}
+.address{
+  width: 100%;
+  display: flex;
+  background: #FFF4F4;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.address div{
+  
+}
+.post_city{
+  display: flex;
+  margin: 15px 0;
+}
+.margin_left{
+  margin-left: 40px;
+}
+.subject{
+  width: 100%;
+  display: flex;
+  background: #FFF4F4;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.subject select{
+  width: 30%;
+  padding: 5px;
+}
+.subject select:focus{
+  outline: none;
+  border: 1px solid #FF4E5D;
+}
+.message{
+  width: 100%;
+  display: flex;
+  background: #FFF4F4;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.message textarea{
+  padding: 10px;
+}
+.message textarea:focus{
+  outline: none;
+  border: 1px solid #FF4E5D;
+}
+.submit{
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 20%;
+}
+.submit input{
+  background: #FF4E5D;
+  width: 15%;
+  padding: 5px;
+  color: #fff;
+  border: 1px solid #FF4E5D;
+  border-radius: 2px;
+}
+.submit input:hover{
+  background: #fff;
+  color: #FF4E5D;
+  border: 1px solid #FF4E5D;
+  transition: .5s ease-out;
+}
